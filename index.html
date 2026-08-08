@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PlantCare</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+
+    <header>
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                🌿 PlantCare
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#explore">Explore Plants</a>
+                <a href="#myPlants">My Plants</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+  
+
+    <main>
+
+   
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="small-title">
+                    WELCOME TO PLANTCARE 🌱
+                </p>
+
+                <h1>
+                    Grow Better.<br>
+                    <span>Care Smarter.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Discover beautiful plants, learn how to care
+                    for them, and keep your plants healthy every day.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button class="primary-btn" id="exploreBtn">
+                        Explore Plants 🌿
+                    </button>
+
+                    <button class="secondary-btn" id="myPlantsBtn">
+                        My Plants
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="hero-decoration">
+                🪴
+            </div>
+
+        </section>
+
+
+        
+
+        <section class="why-section">
+
+            <p class="section-label">
+                WHY PLANTCARE?
+            </p>
+
+            <h2>
+                Everything your plant needs,
+                in one place.
+            </h2>
+
+            <div class="features">
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+
+                    <h3>
+                        Discover Plants
+                    </h3>
+
+                    <p>
+                        Explore different plants and
+                        find the perfect one for you.
+                    </p>
+                </div>
+
+
+                <div class="feature-card">
+                    <div class="feature-icon">💧</div>
+
+                    <h3>
+                        Easy Care
+                    </h3>
+
+                    <p>
+                        Learn watering, sunlight,
+                        soil and temperature needs.
+                    </p>
+                </div>
+
+
+                <div class="feature-card">
+                    <div class="feature-icon">🪴</div>
+
+                    <h3>
+                        Track Your Plants
+                    </h3>
+
+                    <p>
+                        Add your plants and keep track
+                        of their care status.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+       
+
+        <section class="plants-section" id="explore">
+
+            <p class="section-label">
+                EXPLORE OUR COLLECTION
+            </p>
+
+            <h2>
+                Find Your Perfect Plant 🌱
+            </h2>
+
+            <p class="section-description">
+                Explore plants and discover the care they need.
+            </p>
+
+
+        
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="plantSearch"
+                    placeholder="Search for a plant..."
+                >
+
+                <button id="searchBtn">
+                    🔍 Search
+                </button>
+
+            </div>
+
+
+          
+
+            <div class="plant-grid" id="plantGrid">
+
+
+               
+
+                <div class="plant-card" data-name="snake plant">
+
+                    <div class="plant-image snake">
+                        🌿
+                    </div>
+
+                    <div class="plant-info">
+
+                        <p class="plant-type">
+                            INDOOR PLANT
+                        </p>
+
+                        <h3>
+                            Snake Plant
+                        </h3>
+
+                        <p>
+                            Easy to grow and perfect for beginners.
+                        </p>
+
+                        <div class="plant-care">
+                            <span>💧 Low Water</span>
+                            <span>☀️ Low Light</span>
+                        </div>
+
+                        <button
+                            class="details-btn"
+                            data-plant="snake">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+           
+
+                <div class="plant-card" data-name="money plant">
+
+                    <div class="plant-image money">
+                        🍃
+                    </div>
+
+                    <div class="plant-info">
+
+                        <p class="plant-type">
+                            INDOOR PLANT
+                        </p>
+
+                        <h3>
+                            Money Plant
+                        </h3>
+
+                        <p>
+                            A beautiful plant that grows easily indoors.
+                        </p>
+
+                        <div class="plant-care">
+                            <span>💧 Medium Water</span>
+                            <span>☀️ Indirect Light</span>
+                        </div>
+
+                        <button
+                            class="details-btn"
+                            data-plant="money">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            
+
+                <div class="plant-card" data-name="aloe vera">
+
+                    <div class="plant-image aloe">
+                        🌵
+                    </div>
+
+                    <div class="plant-info">
+
+                        <p class="plant-type">
+                            MEDICINAL PLANT
+                        </p>
+
+                        <h3>
+                            Aloe Vera
+                        </h3>
+
+                        <p>
+                            A low-maintenance plant with many benefits.
+                        </p>
+
+                        <div class="plant-care">
+                            <span>💧 Low Water</span>
+                            <span>☀️ Bright Light</span>
+                        </div>
+
+                        <button
+                            class="details-btn"
+                            data-plant="aloe">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+          
+                <div class="plant-card" data-name="peace lily">
+
+                    <div class="plant-image peace">
+                        🌸
+                    </div>
+
+                    <div class="plant-info">
+
+                        <p class="plant-type">
+                            INDOOR PLANT
+                        </p>
+
+                        <h3>
+                            Peace Lily
+                        </h3>
+
+                        <p>
+                            Elegant flowers and beautiful green leaves.
+                        </p>
+
+                        <div class="plant-care">
+                            <span>💧 High Water</span>
+                            <span>☀️ Low Light</span>
+                        </div>
+
+                        <button
+                            class="details-btn"
+                            data-plant="peace">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+               
+
+                <div class="plant-card" data-name="rose">
+
+                    <div class="plant-image rose">
+                        🌹
+                    </div>
+
+                    <div class="plant-info">
+
+                        <p class="plant-type">
+                            FLOWERING PLANT
+                        </p>
+
+                        <h3>
+                            Rose
+                        </h3>
+
+                        <p>
+                            A classic flowering plant that loves sunlight.
+                        </p>
+
+                        <div class="plant-care">
+                            <span>💧 Medium Water</span>
+                            <span>☀️ Bright Light</span>
+                        </div>
+
+                        <button
+                            class="details-btn"
+                            data-plant="rose">
+
+                            View Details
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="details-section"
+            id="plantDetails"
+            style="display: none;">
+
+            <div class="details-container">
+
+                <button
+                    class="back-btn"
+                    id="backToPlants">
+
+                    ← Back to Plants
+
+                </button>
+
+
+                <div class="details-content">
+
+                    <div class="details-image" id="detailsImage">
+                        🌿
+                    </div>
+
+
+                    <div class="details-info">
+
+                        <p class="plant-type" id="detailsType">
+                            INDOOR PLANT
+                        </p>
+
+                        <h2 id="detailsName">
+                            Snake Plant
+                        </h2>
+
+                        <p id="detailsDescription">
+                            Description
+                        </p>
+
+
+                        <div class="care-grid">
+
+                            <div>
+                                <strong>💧 Watering</strong>
+                                <p id="detailsWater">
+                                    Low
+                                </p>
+                            </div>
+
+                            <div>
+                                <strong>☀️ Sunlight</strong>
+                                <p id="detailsSun">
+                                    Low Light
+                                </p>
+                            </div>
+
+                            <div>
+                                <strong>🌱 Soil</strong>
+                                <p id="detailsSoil">
+                                    Well-drained
+                                </p>
+                            </div>
+
+                            <div>
+                                <strong>🌡️ Temperature</strong>
+                                <p id="detailsTemp">
+                                    18°C - 30°C
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="benefits">
+
+                            <h3>
+                                Benefits
+                            </h3>
+
+                            <p id="detailsBenefits">
+                                Purifies indoor air.
+                            </p>
+
+                        </div>
+
+
+                        <div class="instructions">
+
+                            <h3>
+                                Care Instructions
+                            </h3>
+
+                            <p id="detailsCare">
+                                Water only when the soil is dry.
+                            </p>
+
+                        </div>
+
+
+                        <div class="details-buttons">
+
+                            <button
+                                class="primary-btn"
+                                id="addPlantBtn">
+
+                                🌿 Add to My Plants
+
+                            </button>
+
+
+                            <button
+                                class="order-btn"
+                                id="orderBtn">
+
+                                🛒 Order This Plant
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section
+            class="order-section"
+            id="orderSection"
+            style="display: none;">
+
+            <div class="form-container">
+
+                <button
+                    class="back-btn"
+                    id="backToDetails">
+
+                    ← Back to Details
+
+                </button>
+
+
+                <p class="section-label">
+                    ORDER PLANT
+                </p>
+
+                <h2>
+                    Bring a plant home 🌿
+                </h2>
+
+
+                <p id="orderPlantName"
+                   class="selected-plant">
+                </p>
+
+
+                <form id="orderForm">
+
+
+                
+
+                    <label for="quantity">
+                        Quantity
+                    </label>
+
+                    <input
+                        type="number"
+                        id="quantity"
+                        min="1"
+                        max="10"
+                        placeholder="Enter quantity"
+                    >
+
+                    <small
+                        class="error"
+                        id="quantityError">
+                    </small>
+
+
+                   
+
+                    <label for="customerName">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="customerName"
+                        placeholder="Enter your name"
+                    >
+
+                    <small
+                        class="error"
+                        id="nameError">
+                    </small>
+
+
+                   
+
+                    <label for="phone">
+                        Phone
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="Enter 10 digit phone number"
+                        maxlength="10"
+                    >
+
+                    <small
+                        class="error"
+                        id="phoneError">
+                    </small>
+
+
+                    <!-- ADDRESS -->
+
+                    <label for="address">
+                        Address
+                    </label>
+
+                    <textarea
+                        id="address"
+                        rows="4"
+                        placeholder="Enter your address">
+                    </textarea>
+
+                    <small
+                        class="error"
+                        id="addressError">
+                    </small>
+
+
+                    <button
+                        type="submit"
+                        class="place-order-btn">
+
+                        Place Order 🌱
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="my-plants-section"
+            id="myPlants">
+
+            <p class="section-label">
+                MY PLANTS
+            </p>
+
+            <h2>
+                Your Little Garden 🌱
+            </h2>
+
+            <p class="my-description">
+                Plants you add will appear here.
+            </p>
+
+
+            <div
+                id="myPlantsContainer"
+                class="my-plants-container">
+
+                <div class="empty-message">
+                    🌱 No plants added yet.
+                </div>
+
+            </div>
+
+        </section>
+
+
+        
+
+        <div
+            id="successMessage"
+            class="success-message"
+            style="display: none;">
+
+            <div class="success-box">
+
+                <div class="success-icon">
+                    ✅
+                </div>
+
+                <h2>
+                    Order Successful!
+                </h2>
+
+                <p>
+                    Your plant order has been placed successfully.
+                </p>
+
+                <button
+                    class="primary-btn"
+                    id="successHomeBtn">
+
+                    Back to Home
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+
+        <p>
+            © 2026 PlantCare 🌿 | Grow with care.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
